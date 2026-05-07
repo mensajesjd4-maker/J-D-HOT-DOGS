@@ -1,0 +1,110 @@
+ body { font-family: sans-serif; padding: 20px; }
+
+        
+        .header {
+            background-color: #e2e232; 
+            display: inline-block;
+            padding: 15px 40px;
+            border-radius: 20px;
+            border: 2px solid #000;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        
+        .option-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            gap: 15px;
+        }
+
+        
+        .checkbox-custom {
+            appearance: none;
+            -webkit-appearance: none;
+            height: 35px;
+            width: 35px;
+            background-color: #b5b0b0; 
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+
+        
+        .checkbox-custom:checked::after {
+            content: '✔'; 
+            font-size: 25px;
+            color: #000;
+        }
+
+        /* Estilo del texto */
+        .label-text {
+            font-size: 22px;
+            font-weight: bold;
+            min-width: 180px;
+        }
+
+body { font-family: 'Arial', sans-serif; padding: 20px; background-color: #ffffff; }
+
+        
+        .banner {
+            background-color: #e2e232; 
+            text-align: center;
+            padding: 15px;
+            border-radius: 20px;
+            border: 1px solid #000;
+            font-weight: bold;
+            font-size: 28px;
+            margin-bottom: 30px;
+            width: 90%;
+            max-width: 600px;
+        }
+
+       
+        .menu-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            gap: 10px 40px;
+            max-width: 700px;
+        }
+
+        
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+       
+        .check-box {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 35px;
+            height: 35px;
+            background-color: #b5b0b0; 
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0; 
+        }
+
+        
+        .check-box:checked::after {
+            content: '✔';
+            font-size: 24px;
+            color: #000;
+        }
+
+        
+        .label {
+            font-size: 20px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+

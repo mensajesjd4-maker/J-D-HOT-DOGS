@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&D HOT DOGS</title>
+    <link rel="stylesheet" href="Formato.css">
+    <link rel="stylesheet" href="menu.css">
+   <link rel="stylesheet"  href="caarrito.css"
+</head>
+<body>
+
+<div class="titulo" style="background-color:red; padding: 20px;">
+    <center><img src="logo.png" class="mi-imagen"></center>
+    <div class="contenido-texto">
+        <center>
+            <p style="color: white; font-weight: bold; font-size: 60px; margin: 0;">Carrito</p>
+           
+        </center>
+    </div>   
+</div>
+
+<div class="menu" style="text-align: center; margin: 20px;">
+    <div>
+<button id="openMenu" class="btn-open">☰ Menú</button>
+
+    <nav id="sideMenu" class="nav-menu">
+        <button id="closeMenu" class="btn-close">&times;</button>
+        <ul class="nav-links">
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="1-Dogos.html">Dogos</a></li>
+            <li><a href="2-Bebidas.html">Bebidas</a></li>
+            <li><a href="3-carrito.html">carrito</a></li>
+            <li><a href="4-Ingredientes.html">Ingredientes</a></li>
+            <li><a href="5-informacion.html">Acerda de nosotros</a></li>
+        </ul>
+    </nav>
+</div>  
+</div > 
+
+<div class="item-carrito" >
+    <main id="carrito-pagina">
+        <h2>🛒 Tu Carrito de Compras</h2>
+        
+        <ul id="lista-carrito">
+            <!-- Se llena con JS -->
+        </ul>
+        
+        <div class="carrito-footer">
+            <p>Total a pagar: <strong>$<span id="total">0.00</span></strong></p>
+            <button id="Comprar-carrito">Finalizar Compra</button>
+            <button id="vaciar-carrito">Vaciar Todo</button>
+        </div>
+    </main>
+
+  </div>  
+    
+<div class="container" style="padding: 50px; text-align: center;">
+  <form action="https://formsubmit.co/el/vofiha" method="POST">
+    <h2>Contáctanos</h2>
+
+    <input type="hidden" name="_next" value="https://tamalcom.github.io/Tamalcom.com/gracias.html"> 
+    <input type="hidden" name="_captcha" value="false">
+
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.." required style="width: 80%; padding: 10px; margin-bottom: 10px;"><br>
+
+    <label for="email">Correo Electrónico</label><br>
+    <input type="email" id="email" name="email" placeholder="tu@correo.com" required style="width: 80%; padding: 10px; margin-bottom: 10px;"><br>
+
+    <label for="mensaje">Mensaje</label><br>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe algo.." style="height:100px; width: 80%; padding: 10px;"></textarea><br><br>
+
+    <button type="submit" name="submit" class="boton" style="font-size: 20px;">Enviar Mensaje</button>
+  </form>
+</div>
+
+
+
+<div style="background-color:rgb(40, 36, 36); padding: 40px; width: auto;">
+    <Center><p style="color: white; font-size: 25px;">Nos ubicamos en: Calle Lázaro cárdenas  centro de bacobampo</p></Center>
+   <Center><p style="color: white; font-size: 25px;">Conactenos a nuestro correo: loncheriajyd@gmail.com</p></Center>
+  <Center><p style="color: white; font-size: 25px;">Contactenos a nuestro telefono:  642 104 2445</p></Center>
+  
+
+    <div class="imagenes" style="text-align: center; margin-top: 20px;">
+        <a href="">
+            <button style="background: none; border: none; cursor: pointer;">
+                <img src="facebook (1).png" width="75" height="75">
+            </button>
+        </a>
+
+    </div>
+</div>
+<script src="menu.js"></script>
+<script src="caarrito.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,35 @@
+.item-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.controles-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-agregar {
+  background-color: var(--primario);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-restar, .btn-sumar {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-restar:hover, .btn-sumar:hover {
+    background-color: #e0e0e0;
+}
